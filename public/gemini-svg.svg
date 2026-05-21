@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <!-- Premium Neon Tech Gradient -->
+    <linearGradient id="ppGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7B2CBF" />
+      <stop offset="100%" stop-color="#00F5D4" />
+    </linearGradient>
+    
+    <!-- Subtle drop shadow to give depth on small screens -->
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base Circle -->
+  <circle cx="16" cy="16" r="15" fill="#1A1A1E" stroke="url(#ppGrad)" stroke-width="1" />
+
+  <!-- Monogram "PP" Text Group Layer -->
+  <g filter="url(#subtleGlow)">
+    <text x="16" y="21.5" 
+          font-family="'Inter', 'Montserrat', 'Segoe UI', sans-serif" 
+          font-size="13" 
+          font-weight="900" 
+          letter-spacing="-0.5"
+          fill="url(#ppGrad)" 
+          text-anchor="middle">PP</text>
+  </g>
+</svg>
