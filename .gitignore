@@ -23,8 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-hook
-assets
-components
 main.jsx
 help.jsx
